@@ -141,5 +141,4 @@ def answer(question, history=None):
     for source in sources:
         source["number"] = new_number[source["number"]]
  
-    return {"answer": text.strip(), "sources": sources, "found_polic
-
+    return {"answer": text.strip(), "sources": sources, "found_policy": bool(sources)}
