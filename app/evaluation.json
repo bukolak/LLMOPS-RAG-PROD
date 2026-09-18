@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pto-entitlement",
+    "trap": "none",
+    "question": "How many days of paid time off do I get each year?",
+    "must_contain": [
+      "25"
+    ],
+    "must_not_contain": [
+      "22"
+    ],
+    "why": "Straightforward lookup. 22 is the superseded figure and must not appear."
+  },
+  {
+    "id": "pto-after-five-years",
+    "trap": "none",
+    "question": "Does my holiday allowance go up with length of service?",
+    "must_contain": [
+      "28"
+    ],
+    "why": "25 days rising to 28 from the year after your fifth anniversary."
+  }
+]
